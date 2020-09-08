@@ -5,13 +5,6 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
   template: `
     <div class="well hoverwell thumbnail">
       <h2>{{ event?.name }}</h2>
-      <span [hidden]="event.hidden">
-        <button class="btn btn-warning" (click)="event.hidden=true" >Collapse</button>
-      </span>
-      <span [hidden]="!event.hidden">
-        <button class="btn btn-warning" (click)="event.hidden=false" >Expand</button>
-      </span>
-      <div [hidden]="event.hidden">
       <div>Date: {{ event?.date }}</div>
       <div>Time: {{ event?.time }}</div>
       <div>Price: \${{ event?.price }}</div>
@@ -23,7 +16,6 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
       </div>
       <div *ngIf="event?.onlineUrl">
         Online URL: {{event?.onlineUrl}}
-      </div>
       </div>
     </div>
   `,
