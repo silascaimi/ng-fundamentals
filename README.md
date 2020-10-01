@@ -28,4 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Packages
 
-`npm install ngf-bootstrap --save`
+`$ npm install ngf-bootstrap --save`  
+
+`$ npm install -toastr --save`
