@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
-`npm install -g @angular/cli@7.1.2`
+`npm install -g @angular/cli@7.1.2`  
+`ng new ng-fundamentals`
 
 ## Development server
 
