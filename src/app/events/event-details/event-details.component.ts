@@ -19,7 +19,7 @@ export class EventDetailsComponent {
   event: any;
   constructor(private eventService: EventService) {}
 
-  ngOnit() {
+  ngOnInit() {
     this.event = this.eventService.getEvent(1);
   }
 }
